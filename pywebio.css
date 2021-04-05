@@ -48,7 +48,7 @@ header a:hover {
   font-family: Hacked;
   padding: 200px;
   background-image: url("PinClipart.com_95-theses-clipart_3357801.png");
-  background-size:cover;
+  background-size: cover;
   /* padding-bottom: 400px; */
   background-repeat: no-repeat;
   margin-bottom: 100px;
@@ -135,6 +135,18 @@ footer div a img {
     overflow-x: hidden;
   }
   .topics {
+    width: 100%;
+  }
+  .topics {
+    text-align: center;
+    display: grid;
+    padding-right: 0;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    background: #43c4ff;
+    border: solid crimson;
+    border-radius: 20px;
+    overflow-x: hidden;
     width: 100%;
   }
 }
